@@ -10,12 +10,7 @@
     },
     "require-dev": {
         "rindow/rindow-stdlib": "1.*",
-        "rindow/rindow-container": "1.*",
-        "rindow/rindow-annotation": "1.*",
-        "rindow/rindow-web-http": "1.*",
-        "rindow/rindow-web-router": "1.*",
-        "rindow/rindow-web-form": "1.*",
-        "rindow/rindow-web-mvc": "1.*"
+        "rindow/rindow-container": "1.*"
     },
     "suggest": {
         "rindow/rindow-container": "It needs some service container",
