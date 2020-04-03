@@ -9,13 +9,13 @@
         "psr/http-message": "^1.0"
     },
     "require-dev": {
-        "rindow/rindow-stdlib": "*",
-        "rindow/rindow-container": "*",
-        "rindow/rindow-annotation": "*",
-        "rindow/rindow-web-http": "*",
-        "rindow/rindow-web-router": "*",
-        "rindow/rindow-web-form": "*",
-        "rindow/rindow-web-mvc": "*"
+        "rindow/rindow-stdlib": "1.*",
+        "rindow/rindow-container": "1.*",
+        "rindow/rindow-annotation": "1.*",
+        "rindow/rindow-web-http": "1.*",
+        "rindow/rindow-web-router": "1.*",
+        "rindow/rindow-web-form": "1.*",
+        "rindow/rindow-web-mvc": "1.*"
     },
     "suggest": {
         "rindow/rindow-container": "It needs some service container",
@@ -26,18 +26,5 @@
         "psr-0": {
             "Rindow\\Web\\View\\": "src/"
         }
-    },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://rindow.github.io/rindow-packagist/packages.json",
-            "options": {
-                "ssl": {
-                    "verify_peer": "true"
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
